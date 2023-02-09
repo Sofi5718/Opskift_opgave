@@ -1,5 +1,24 @@
 body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: beige;
+}
+main {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 500px;
+}
+header {
+  text-align: center;
+}
+#info {
   background-color: bisque;
-  color: rgba(34, 33, 33, 0.763);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+img {
+  height: auto;
+  width: 100%;
+}
+#billede {
+  background-color: beige;
+  padding: 150px 10px 150px 30px;
 }
